@@ -2,7 +2,15 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <div className=''></div>
+    <nav className='flex flex-row'>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Work</li>
+            <li>Contact</li>
+        </ul>
+        
+    </nav>
   )
 }
 

@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className='text-3xl font-bold underline'>
-      Hello World
+    <div className=''>
+      <Home/>
       <NavBar/>
       </div>
     
