@@ -2,12 +2,20 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <nav className='flex flex-row'>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Work</li>
-            <li>Contact</li>
+    <nav >
+        <ul className='flex flex-row justify-end mr-10 space-x-5'>
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Work</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
         </ul>
         
     </nav>
