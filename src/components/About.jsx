@@ -10,13 +10,13 @@ function About() {
     <div className='h-screen w-screen' id='about'>
         <h1 className='text-7xl text-center font-bold'>About</h1>
         <div className='flex flex-row'>
-            <div>
+            <div className=''>
               <p className='text-2xl'> 
               Originally a Pharmaceutical Sciences graduate, I'm a Computer Science 
               student with a passion for w
               </p>   
             </div>
-            <div>
+            <div className='flex flex-grid justify-center items-center'>
                 <div className='text-center'>
                     <img src={reactLogo} width={85}/>
                     <p>React</p>
