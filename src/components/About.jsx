@@ -7,24 +7,36 @@ import cssLogo from '../images/csslogo.png';
 
 function About() {
   return (
-    <div className='h-screen w-screen'>
+    <div className='h-screen w-screen' id='about'>
         <h1 className='text-7xl text-center font-bold'>About</h1>
         <div className='flex flex-row'>
             <div>
-              <p className='text-2xl'> Originally a Phamrmaceutical Sciences graduate, I'm a Computer Science 
-            student with a passion for w
-           </p>   
+              <p className='text-2xl'> 
+              Originally a Pharmaceutical Sciences graduate, I'm a Computer Science 
+              student with a passion for w
+              </p>   
             </div>
             <div>
-                <img src={reactLogo} width={85}/>
-                <p>React</p>
-                <img src={javaScriptLogo} width={85}/>
-                <p>JavaScript</p>
-                <img src={gitLogo} width={85}/>
-                <p>Git</p>
-                <img src={cssLogo} width={85}/>
-                <p>CSS</p>
-                <img src={htmlLogo} width={85}/>
+                <div className='text-center'>
+                    <img src={reactLogo} width={85}/>
+                    <p>React</p>
+                </div>
+                <div className='text-center'>
+                    <img src={javaScriptLogo} width={85}/>
+                    <p>JavaScript</p>
+                </div >
+                <div className='text-center'>
+                    <img src={gitLogo} width={85}/>
+                    <p>Git</p>
+                </div>
+                <div className='text-center'>
+                    <img src={cssLogo} width={85}/>
+                    <p>CSS</p>
+                </div>
+                <div className='text-center'>
+                    <img src={htmlLogo} width={85}/>
+                    <p>HTML</p>
+                </div>
             </div>
            
         </div>
