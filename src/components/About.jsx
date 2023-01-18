@@ -5,19 +5,44 @@ import htmlLogo from '../images/htmllogo.png';
 import gitLogo from '../images/gitlogo.png';
 import cssLogo from '../images/csslogo.png';
 
+const skills = [
+    {
+        logo: htmlLogo,
+        title: "HTML"
+    },
+    {
+        logo: cssLogo,
+        title: "CSS"
+    },
+    {
+        logo: javaScriptLogo,
+        title: "JavaScript"
+    },
+    {
+        logo: reactLogo,
+        title: "ReactJS"
+    },
+    {
+        logo: gitLogo,
+        title: "Git"
+    },
+
+]
+
+
 function About() {
   return (
-    <div className='h-screen w-screen' id='about'>
+    <div className='bg-gray-700 h-screen w-screen relative' id='about'>
         <h1 className='text-7xl text-center font-bold'>About</h1>
-        <div className='flex flex-row'>
+        <div className='flex flex-col'>
             <div className=''>
-              <p className='text-2xl'> 
-              Originally a Pharmaceutical Sciences graduate, I'm a Computer Science 
-              student with a passion for w
-              </p>   
+              <h4> Bachelor's of Computer Science </h4>
+              <h4> Oregon State University </h4>
+              <p> GPA 3.5 </p>
+
             </div>
-            <div className='flex flex-grid justify-center items-center'>
-                <div className='text-center'>
+            <div className='flex flex-wrap items-center'>
+                {/* <div className='text-center'>
                     <img src={reactLogo} width={85}/>
                     <p>React</p>
                 </div>
@@ -35,8 +60,8 @@ function About() {
                 </div>
                 <div className='text-center'>
                     <img src={htmlLogo} width={85}/>
-                    <p>HTML</p>
-                </div>
+                    <p>HTML</p> */}
+                {/* </div> */}
             </div>
            
         </div>
