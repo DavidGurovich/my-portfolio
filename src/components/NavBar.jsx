@@ -15,7 +15,7 @@ function NavBar() {
   //   )
   // }
   return (
-    <nav className=' text-white sticky top-0 left-0 right-0'>
+    <nav className=' text-red-500 sticky top-0 left-0 right-0'>
         <ul className='flex flex-row justify-end mr-10 space-x-7 text-2xl pr-14'>
   
               <a href="#home">Home</a>
