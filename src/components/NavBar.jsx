@@ -1,31 +1,37 @@
-import React from 'react'
-import { useRef } from 'react'
+import React, {useState} from 'react'
+import {
+  VscThreeBars,
+  VscHome,
+  VscPerson,
+  VscProject,
+  VscMail,
+} from 'react-icons/vsc';
 
+const navLinks = [
+  {name: "Home", link: "#home", logo: {VscHome}},
+  {name: "About", link: "#about", logo: {VscPerson}},
+  {name: "Home", link: "#projects", logo: {VscProject}},
+  {name: "Home", link: "#contact", logo: {VscMail}},
+
+]
 function NavBar() {
-  // const about = useRef(null);
-  // const projects = useRef(null);
-  // const contact = useRef(null);
+  const [nav, setNav] = useState(false)
+  const handleClick = () => setNav(!nav)
 
-  // const scrollToSection = (elementRef) => {
-  //   window.scrollTo(
-  //     {
-  //       top: elementRef.current.offsetTop,
-  //       behavior: 'smooth'
-  //     }
-  //   )
-  // }
   return (
-    <nav className=' text-red-500 sticky top-0 left-0 right-0'>
-        <ul className='flex flex-row justify-end mr-10 space-x-7 text-2xl pr-14'>
-  
-              <a href="#home">Home</a>
-              <a href= "#about">About</a>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
-          
-        </ul>
+    <header className='text-gray-300 fixed h-[70px] w-full flex justify-between items-center px-4'>
+      
         
-    </nav>
+            <ul className='md:flex hidden'>
+                  <a href="#home" className='hover:text-red-600'>Home</a>
+                  <a href= "#about" className='hover:text-red-600'>About</a>
+                  <a href="#projects" className='hover:text-red-600'>Projects</a>
+                  <a href="#contact" className='hover:text-red-600'>Contact</a>
+            </ul>
+
+       
+      
+    </header>
   )
 }
 
