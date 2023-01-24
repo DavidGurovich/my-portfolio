@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 import {
   VscClose,
   VscThreeBars,
@@ -7,6 +7,7 @@ import {
   VscProject,
   VscMail,
 } from 'react-icons/vsc';
+import DG from '../images/Logo.png'
 
 const navLinks = [
   {name: "Home", link: "#home", logo: <VscHome/>},
@@ -20,7 +21,12 @@ function NavBar() {
   const handleClick = () => setNav(!nav)
 
   return (
-    <header className='text-gray-300 fixed h-[70px] w-full flex justify-end items-center px-4'>
+    <header className='bg-neutral-900 text-gray-300 fixed h-[70px] w-full flex justify-between items-center px-4 border-b-2 border-white'>
+            
+            <div>
+              <img src={DG} alt="David's Logo" style={{ width: '200px' }}/>
+            </div>
+            
             {/* Mobile three bars logo for menu */}
 
             <div className='md:hidden z-10' onClick={handleClick}>
@@ -39,13 +45,13 @@ function NavBar() {
             {/* menu for a mobile device/ smaller screen*/}
             <ul className={
               !nav ? 'hidden': 
-              'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+              'absolute top-0 left-0 w-full h-screen bg-neutral-900 flex flex-col justify-center items-center'
             }
             >
               {navLinks.map((nav, i) => (
-                <li key={i} className='hover:text-red-600 flex gap-5 py-6'>
-                  <div>{nav.logo}</div>
-                  <a href={nav.link} onClick={handleClick}> {nav.name}</a>
+                <li key={i} className='hover:text-red-600 flex gap-5 py-6 text-4xl'>
+                  <div className='my-1'>{nav.logo}</div>
+                  <a className='' href={nav.link} onClick={handleClick}> {nav.name}</a>
                 </li>
               ))}
             </ul>

@@ -40,9 +40,9 @@ function About() {
 
   return (
     
-    <div className='bg-gray-700 h-screen w-screen relative' id='about'>
+    <div className='bg-neutral-900 h-screen w-screen relative' id='about'>
        
-        <h1 className='text-7xl text-center font-bold'>About</h1>
+        <h1 className='text-7xl text-center font-bold text-white'>About</h1>
         <div className='flex flex-col'>
             <div className=''>
               <h4> Bachelor's of Computer Science </h4>
