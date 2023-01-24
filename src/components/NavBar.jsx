@@ -21,10 +21,10 @@ function NavBar() {
   const handleClick = () => setNav(!nav)
 
   return (
-    <header className='bg-neutral-900 text-gray-300 fixed h-[70px] w-full flex justify-between items-center px-4 border-b-2 border-white'>
+    <header className='bg-neutral-900 text-gray-300 fixed h-[70px] w-full flex justify-between items-center px-4 border-b-[.5px] border-gray-700'>
             
             <div>
-              <img src={DG} alt="David's Logo" style={{ width: '200px' }}/>
+              <img src={DG} alt="David's Logo" style={{ width: '150px' }}/>
             </div>
             
             {/* Mobile three bars logo for menu */}
@@ -35,8 +35,8 @@ function NavBar() {
 
             <ul className='md:flex md:flex-end hidden'>
               {navLinks.map((nav, i) => (
-                <li key={i} className='hover:text-red-600 flex gap-5'>
-                  <div>{nav.logo}</div>
+                <li key={i} className='hover:text-red-600 flex gap-5 text-2xl'>
+                  <div className='ml-5 mt-1'>{nav.logo}</div>
                   <a href={nav.link}> {nav.name}</a>
                 </li>
               ))}

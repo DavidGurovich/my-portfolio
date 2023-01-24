@@ -55,9 +55,9 @@ function About() {
                 {skills?.map((skill, i) => (
                     <div 
                     key={i}
-                    className="text-gray-400 border-2 group border-red-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl"
+                    className="text-gray-400 border-2 group border-red-600 relative min-w-[10rem] max-w-[16rem] p-10 rounded-xl"
                     >
-                        <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-red-600">
+                        <div className="text-6xl w-28 h-28 rounded-full flex items-center justify-center group-hover:text-red-600">
                             {skill.logo}
                         </div> 
                         <p className='md:text-2xl text-lg text-center'>{skill.title}</p>
