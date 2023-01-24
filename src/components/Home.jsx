@@ -15,7 +15,7 @@ function Home() {
   return (
     <section 
     id = "home"
-    className='bg-neutral-900 w-full h-screen '>
+    className='bg-neutral-900 w-screen h-screen '>
       
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         
@@ -41,13 +41,13 @@ function Home() {
               </button> 
           </a>
           
-          <a href="#about" >
+          <a href= "_blank" rel="noopener noreferrer">
               <button className='flex flex-row items-center gap-2 px-5 py-2 border-2 rounded-lg hover:border-red-600 text-white'>
                   <span className='text-red-600'><SiLinkedin/></span>
                    <p>LinkedIn</p>
               </button> 
           </a>
-          <a href="#about" >
+          <a href= "_blank" rel="noopener noreferrer" >
               <button className='flex flex-row items-center gap-2 px-5 py-2 border-2 rounded-lg  hover:border-red-600 text-white'>
                   <span className='text-red-600'><HiMail/></span>
                    <p>Email</p>
