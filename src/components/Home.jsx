@@ -4,13 +4,11 @@ import {SiGithub, SiLinkedin} from 'react-icons/si';
 import {GiBlackBook} from 'react-icons/gi';
 import {BiPaint} from 'react-icons/bi';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 function Home() {
 
-  useEffect(() => {
-    AOS.init();
-  }, [])
+  
   
   return (
     <section 
@@ -19,8 +17,8 @@ function Home() {
       
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         
-          <p className='text-red-600 md:text-3xl'> Hi there! My name is</p>
-          <h1 className='text-white font-bold sm:text-7xl md:leading-normal text-2xl leading-10'>
+          <p  className='text-red-600 md:text-4xl'> Hi there! My name is</p>
+          <h1 className='text-white font-bold md:text-8xl md:leading-normal text-2xl leading-10'>
               David Gurovich.
           </h1>
           <h2 className='font-bold sm:text-7xl text-4xl text-gray-500'> I'm a Front-End Developer</h2>
