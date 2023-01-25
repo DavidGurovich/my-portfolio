@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <main className='bg-neutral-900'>
+    <main className='bg-neutral-900 overflow-hidden'>
       <NavBar/>
       <Home/>
       <About />

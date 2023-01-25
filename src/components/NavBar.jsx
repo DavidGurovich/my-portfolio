@@ -21,7 +21,7 @@ function NavBar() {
   const handleClick = () => setNav(!nav)
 
   return (
-    <header className='bg-neutral-900 text-gray-300 fixed h-[70px] w-full flex justify-between items-center px-4 border-b-[.5px] border-gray-700'>
+    <header className='bg-neutral-900  text-gray-300 fixed h-[70px] w-full flex justify-between items-center px-4 border-b-[.5px] border-gray-700'>
             
             <div>
               <img src={DG} alt="David's Logo" style={{ width: '150px' }}/>
