@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import {HiOutlineChevronDoubleDown, HiMail} from 'react-icons/hi';
+import {HiChevronDoubleDown, HiMail} from 'react-icons/hi';
 import {SiGithub, SiLinkedin} from 'react-icons/si';
 import {GiBlackBook} from 'react-icons/gi';
 import {BiPaint} from 'react-icons/bi';
@@ -52,7 +52,7 @@ function Home() {
               </button> 
           </a>
         </div>
-        
+        <a href="#about" className='text-red-600 text-3xl animate-bounce pb-6'><HiChevronDoubleDown/></a>
       </div>
       
     </section>
