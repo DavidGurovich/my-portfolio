@@ -1,7 +1,7 @@
 import React from 'react'
 import "aos/dist/aos.css";
-import calcPhoto from '../images/calculator.PNG';
-import weatherPhoto from '../images/weatherapi.PNG';
+import calcPhoto from '../images/calculator.png';
+import weatherPhoto from '../images/weatherapi.png';
 function Projects() {
 
     
