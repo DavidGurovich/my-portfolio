@@ -21,13 +21,13 @@ function Contact() {
               </button> 
           </a>
           
-          <a href= "_blank" rel="noopener noreferrer">
+          <a target= "_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/davidgurovich98/">
               <button className='flex flex-row items-center gap-2 px-5 py-2 border-2 rounded-lg hover:border-red-600 text-white'>
                   <span className='text-red-600'><SiLinkedin/></span>
                    <p>LinkedIn</p>
               </button> 
           </a>
-          <a href= "_blank" rel="noopener noreferrer" >
+          <a target= "_blank" rel="noopener noreferrer" href="mailto: david.gurovich@outlook.com">
               <button className='flex flex-row items-center gap-2 px-5 py-2 border-2 rounded-lg  hover:border-red-600 text-white'>
                   <span className='text-red-600'><HiMail/></span>
                    <p>Email</p>

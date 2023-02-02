@@ -17,7 +17,7 @@ function Home() {
       
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         
-          <p  className='text-red-600 md:text-4xl'> Hi there! My name is</p>
+          <p  className='text-red-600 md:text-4xl'> Hello! My name is</p>
           <h1 className='text-white font-bold md:text-8xl md:leading-normal text-2xl leading-10'>
               David Gurovich.
           </h1>
@@ -29,7 +29,7 @@ function Home() {
           <p className='text-white'> <GiBlackBook/></p>
         
         
-        <div className='flex flex-row gap-5 mt-5 '>
+        <div className='flex flex-row gap-5 mt-5'>
           
             
           <a target = "_blank" rel="noopener noreferrer" href="https://github.com/DavidGurovich" >
@@ -39,22 +39,22 @@ function Home() {
               </button> 
           </a>
           
-          <a href= "_blank" rel="noopener noreferrer">
+          <a target= "_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/davidgurovich98/'>
               <button className='flex flex-row items-center gap-2 px-5 py-2 border-2 rounded-lg hover:border-red-600 text-white'>
                   <span className='text-red-600'><SiLinkedin/></span>
                    <p>LinkedIn</p>
               </button> 
           </a>
-          <a href= "_blank" rel="noopener noreferrer" >
+          <a target= "_blank" rel="noopener noreferrer" href='mailto: david.gurovich@outlook.com'>
               <button className='flex flex-row items-center gap-2 px-5 py-2 border-2 rounded-lg  hover:border-red-600 text-white'>
                   <span className='text-red-600'><HiMail/></span>
                    <p>Email</p>
               </button> 
           </a>
         </div>
-        <a href="#about" className='text-red-600 text-3xl animate-bounce pb-6'><HiChevronDoubleDown/></a>
+        <a href="#about" className=' self-center mt-20  text-red-600 text-3xl animate-bounce pb-6'><HiChevronDoubleDown/></a>
       </div>
-      
+
     </section>
   )
 }
