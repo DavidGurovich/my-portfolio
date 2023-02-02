@@ -6,10 +6,7 @@ import weatherPhoto from '../images/weatherapi.png';
 
 
 function Projects() {
-  function openInNewTab(url) {
-    window.open(url, '_blank').focus();
-  }
-    
+  
   return (
     <div className='bg-neutral-900 w-screen ' id='projects'>
         <div className='flex flex-col justify-center items-center mx-auto gap-16 '>
