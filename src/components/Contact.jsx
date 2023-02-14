@@ -11,7 +11,7 @@ function Contact() {
         Please let me know if you have any questions. 
       </p>
 
-      <div className='flex flex-row gap-5 mt-5 '>
+      <div className='flex flex-row gap-5 mt-5'>
           
             
           <a target = "_blank" rel="noopener noreferrer" href="https://github.com/DavidGurovich" >

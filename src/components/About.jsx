@@ -48,13 +48,13 @@ function About() {
               <div className=' flex md:flex-row flex-col gap-5 '>
               
                 <p className='text-gray-300 md:w-3/5 md:px-32 px-5 md:text-lg'>
-                    Hello! I'm David Gurovich, <br /> <br />
-                    Originally a Pre-Med student, I graduated from The Ohio State University
+                    Hello! I'm <span className='text-red-600'>David Gurovich</span>, <br /> <br />
+                    Originally a Pre-Med student, I graduated from <span className='text-red-600'>The Ohio State University </span>
                     with a B.S. of Pharmaceutical Sciences. 
                     In my final year I began to explore software development, fast-forward
-                    to today, I'm a Computer Science student at Oregon State University. 
+                    to today, I'm a Computer Science student at <span className='text-red-600'>Oregon State University</span>. 
                     My courses have focused on Data Structures, Algorithms, Computer Architecture, 
-                    and most importantly, collaborations with others through git and task management systems.
+                    and most recently, collaborations with others through git and task management systems.
                     <br /> <br />Although it was a drastic career change, software development is where I belong and I haven't looked back.
                 </p>
                 <div className='flex items-center justify-center md:w-2/5 pr-12'>
