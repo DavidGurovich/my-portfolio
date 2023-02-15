@@ -1,9 +1,19 @@
 import React from 'react'
 import {HiChevronDoubleUp} from 'react-icons/hi'
+import {Link} from 'react-scroll'
 function Footer() {
   return (
     <div className='bg-neutral-900 flex flex-col items-center justify-center pb-5 w-screen h-full'>
-     <a href="#home" className='text-red-600 text-3xl animate-bounce pb-6'><HiChevronDoubleUp/></a>
+     <Link 
+     
+     to='home'
+     smooth={true}
+     activeClass='active'
+     spy={true}
+     offset={-200}
+     className='text-red-600 text-3xl animate-bounce pb-6
+     '><HiChevronDoubleUp/>
+     </Link>
      <p className='text-gray-300 text-center'>
         Design and Code by David Gurovich.
         <br />

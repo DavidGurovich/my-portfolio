@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import {motion} from 'framer-motion';
 import {TypeAnimation} from 'react-type-animation'; 
 import { fadeIn } from '../fade.js'
-
+import {CgFileDocument} from 'react-icons/cg'
 //icons
 
 import {HiChevronDoubleDown, HiMail} from 'react-icons/hi';
@@ -20,7 +20,7 @@ function Home() {
    
     <section 
     id='home'
-    className='min-h-[85vh] lg:min-h-[78vh] flex items-center'
+    className='min-h-[85vh] h-screen flex items-center'
     >
       <div className='container mx-auto'>
           <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
@@ -61,8 +61,9 @@ function Home() {
                   viewport={{ once: false, amount: 0.7 }}
                   className='flex max-w-max gap-x-6 items-center mb-12 mx-auto'
                   >
-                    <a className='text-white border-2 px-4 py-2 rounded-lg ' target= "_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1_dOZW0XnJHn9x3n_nU-oimMKBg2V8pYV/view?usp=sharing'>
-                      View CV
+                    <a className='text-white flex flex-row items-center justify-center gap-2 border-2 px-4 mt-6 py-2 rounded-lg hover:border-red-600 ' target= "_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1_dOZW0XnJHn9x3n_nU-oimMKBg2V8pYV/view?usp=sharing'>
+                   <CgFileDocument/>
+                   Resume
                     </a>
                   </motion.div>
 
