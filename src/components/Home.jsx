@@ -44,9 +44,9 @@ function Home() {
                         <span className='text-white mr-4'>I am a</span>
                         <TypeAnimation
                           sequence={[
-                            'Computer Science Student.',
+                            'Software Developer.',
                             2000,
-                            'Front-end Developer.',
+                            'Computer Science Graduate.',
                             2000,
                           ]}
                           speed={50}
@@ -61,7 +61,7 @@ function Home() {
                   viewport={{ once: false, amount: 0.7 }}
                   className='flex max-w-max gap-x-6 items-center mb-12 mx-auto'
                   >
-                    <a className='text-white flex flex-row items-center justify-center gap-2 border-2 px-4 mt-6 py-2 rounded-lg hover:border-red-600 ' target= "_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1_dOZW0XnJHn9x3n_nU-oimMKBg2V8pYV/view?usp=sharing'>
+                    <a className='text-white flex flex-row items-center justify-center gap-2 border-2 px-4 mt-6 py-2 rounded-lg hover:border-red-600 ' target= "_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1L9nIFawwNvmaubYv86krGduE1Wd4G0iK/view?usp=sharing'>
                    <CgFileDocument/>
                    Resume
                     </a>
